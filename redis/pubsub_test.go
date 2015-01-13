@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/garyburd/redigo/internal/redistest"
-	"github.com/garyburd/redigo/redis"
+	"github.com/penlook/redis/internal/redistest"
+	"github.com/penlook/redis/redis"
 )
 
 func publish(channel, value interface{}) {
